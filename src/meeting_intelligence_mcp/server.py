@@ -109,7 +109,9 @@ def draft_follow_ups(transcript: str) -> dict[str, Any]:
     """
     notes = summarize_meeting_transcript(_validated_transcript(transcript))
     items = _action_items(notes)
-    lines = ["Hi team,", "", f"Quick recap of {notes.title}.", ""]
+    # The derived title is a heuristic and reads awkwardly inside a message,
+    # so the draft stays neutral instead of embedding it.
+    lines = ["Hi team,", "", "Quick recap and next steps from the meeting.", ""]
     if items:
         lines.append("Owners and next steps:")
         for item in items:

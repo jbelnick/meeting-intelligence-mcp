@@ -60,6 +60,7 @@ of failing silently.
 ## Try it without an MCP client
 
 ```bash
+python3 -m venv .venv && source .venv/bin/activate
 make install
 make demo
 ```
@@ -88,7 +89,7 @@ src/meeting_intelligence_mcp/  FastMCP server and the three tools
 tests/                       Tool, validation, and server-surface tests
 ```
 
-## Part of one system
+## Part Of One System
 
 - [cerebellum-local-ai-router](https://github.com/jbelnick/cerebellum-local-ai-router):
   routing and cost control, deciding which model does the work.

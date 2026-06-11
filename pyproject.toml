@@ -9,10 +9,10 @@ description = "MCP server exposing meeting intelligence tools: summarize a trans
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "Public Portfolio Demo" }]
+authors = [{ name = "Jason Belnick" }]
 dependencies = [
     "mcp>=1.9.0",
-    "meeting-intelligence-pipelines @ git+https://github.com/jbelnick/meeting-intelligence-pipelines.git",
+    "meeting-intelligence-pipelines @ git+https://github.com/jbelnick/meeting-intelligence-pipelines.git@4aa5388b39b082ce576157b729844a02b78a7834",
 ]
 
 [project.scripts]
