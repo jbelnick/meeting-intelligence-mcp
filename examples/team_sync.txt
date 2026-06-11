@@ -1,0 +1,9 @@
+Maya: Thanks for joining, quick sync on the Q3 reporting launch.
+Maya: We agreed last week that the export service ships behind a flag, and that decision is confirmed.
+Devon: The blocker right now is the data warehouse migration, we are waiting on the schema freeze from platform.
+Devon: Devon will draft the rollback runbook by Friday so launch review has it.
+Priya: Priya needs to confirm whether legal signed off on the retention change before we enable the flag.
+Priya: One concern from support, ticket volume doubles when exports fail silently, so the error banner has to ship with the flag.
+Maya: Good catch. Maya will schedule the launch review for next week once the runbook lands.
+Devon: Open question, do we gate the flag on the EU region until the residency review closes?
+Maya: Decided, we selected the staged rollout, US first, then EU after the residency review.
