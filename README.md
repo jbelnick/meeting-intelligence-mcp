@@ -1,3 +1,14 @@
+---
+Date Created: 2026-06-16
+Date modified: 2026-06-16
+Status: active
+Tags:
+  - belnick
+  - project
+  - meeting-intelligence-mcp
+  - readme
+---
+
 # Meeting Intelligence MCP Server
 
 [![Verify](https://github.com/jbelnick/meeting-intelligence-mcp/actions/workflows/verify.yml/badge.svg)](https://github.com/jbelnick/meeting-intelligence-mcp/actions/workflows/verify.yml)
